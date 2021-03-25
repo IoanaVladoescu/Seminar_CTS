@@ -19,11 +19,12 @@ public class ConexiuneBD {
 		this.denumire=denumire;
 	}
 	
-
+//versiune lazy
 	public static synchronized ConexiuneBD getConexiune()
 	{
 		if(conexiune == null)
 		{
+			//datele se pot prelua din fisiere de configurare
 			conexiune = new ConexiuneBD("10.0.0.1", "cts");
 		}
 		return conexiune;
