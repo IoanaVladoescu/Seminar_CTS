@@ -6,7 +6,7 @@ public class TestDecorator {
 		SuperErou dragon = new Dragon("Dragon albastru", 1000);
 		
 		dragon.alearga();
-		dragon.esteLovit(200);
+		dragon.esteLovit(800);
 		dragon.seVindeca(100);
 
 		
