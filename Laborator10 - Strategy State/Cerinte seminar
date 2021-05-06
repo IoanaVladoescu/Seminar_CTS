@@ -7,3 +7,8 @@ exista 3 strategii/modalitati de acordare a bonusului.
 2. Comportamentul caracterului este influentat de starea lui
 - daca acesta este ranit miscarile lui sunt afectate
 - daca este afectat de actiunile magice ale celorlalte caractere, actiunile acestuia (modul in crae ataca, se apara) sunt afectate
+
+3. Jocul are un chat intern
+- vrem sa filtram comentariile / mesajele care nu sunt potrivite
+- mesajele destinate unui anumit player vor fi private
+- difuzare mesaje destinate tuturor
